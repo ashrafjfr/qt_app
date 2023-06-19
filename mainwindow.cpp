@@ -13,3 +13,22 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::on_upButton_clicked()
+{
+    qDebug() << "UP";
+}
+
+void MainWindow::on_rightButton_clicked()
+{
+    qDebug() << "RIGHT";
+}
+
+void MainWindow::on_downButton_clicked()
+{
+    qDebug() << "DOWN";
+}
+
+void MainWindow::on_leftButton_clicked()
+{
+    qDebug() << "LEFT";
+}
