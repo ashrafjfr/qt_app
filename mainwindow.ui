@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>210</y>
+      <y>300</y>
       <width>131</width>
       <height>51</height>
      </rect>
@@ -37,7 +37,7 @@
     <property name="geometry">
      <rect>
       <x>420</x>
-      <y>210</y>
+      <y>300</y>
       <width>131</width>
       <height>51</height>
      </rect>
@@ -56,7 +56,7 @@
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>130</y>
+      <y>220</y>
       <width>131</width>
       <height>51</height>
      </rect>
@@ -75,7 +75,7 @@
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>290</y>
+      <y>380</y>
       <width>131</width>
       <height>51</height>
      </rect>
@@ -88,6 +88,28 @@
     </property>
     <property name="text">
      <string>DOWN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="display">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>60</y>
+      <width>271</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>press a button</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>

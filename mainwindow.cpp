@@ -1,5 +1,5 @@
 #include "mainwindow.h"
-#include "./ui_mainwindow.h"
+#include "ui_mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -15,20 +15,20 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_upButton_clicked()
 {
-    qDebug() << "UP";
+    ui->display->setText(QString("UP"));
 }
 
 void MainWindow::on_rightButton_clicked()
 {
-    qDebug() << "RIGHT";
+    ui->display->setText(QString("RIGHT"));
 }
 
 void MainWindow::on_downButton_clicked()
 {
-    qDebug() << "DOWN";
+    ui->display->setText(QString("DOWN"));
 }
 
 void MainWindow::on_leftButton_clicked()
 {
-    qDebug() << "LEFT";
+    ui->display->setText(QString("LEFT"));
 }
